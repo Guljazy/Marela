@@ -1,0 +1,327 @@
+body{
+    margin: 0;
+}
+
+.header{
+    /* max-width: 1440px; */
+    height: 120px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-menu{
+    width: 600px;
+}
+
+.nav-menu .menu{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.menu li{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #B08EAD;
+}
+
+.main-block{
+    position: relative;
+}
+
+.main-block .main-block1{
+    height: 458px;
+    background: #C9ADC6;
+}
+
+.main-block .main-block2{
+    height: 359px;
+    background: #D6BBD3;
+}
+
+.main-block img{
+    height: 675px;
+    width: 851px;
+    left: 178px;
+    top: 72px;
+    position: absolute;
+    height: 675px;
+    right: 411px;  
+}
+
+.main-block .main-min-block{
+    width: 385px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    padding-left: 40px;
+    background-color: #B08EAD;
+    position: absolute;
+    height: 450px;
+    right: 113px;
+    top: 182px;
+}
+
+.main-block .min-title{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.main-block .min-subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-block .border-subtitle{
+    width: 72px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+.description{
+   padding: 60px 0px;
+}
+
+.description .btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.description .title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+
+.description .desc{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    color: #5F4D5D;
+}
+
+.description .btn{
+    padding: 16px 29px;
+    text-decoration: none;
+    border: 1px solid #B99BB6;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+}
+
+.about .about-desc-cont{
+    margin: 0;
+    width: 345px;
+    height: 113px;
+    background-color: #CEB3CB;
+    padding: 23px 0px 23px 23px;
+}
+
+.about .about-description{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.about .about-link{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 17px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.info-card{
+    padding: 71px 60px 41px 127px;
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+}
+
+.info-card .info-card__txt{
+    width: 481px;
+}
+
+.info-card .title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+
+.info-card .subtitle{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+}
+
+.border{
+    display: flex;
+    justify-content: center;
+}
+
+.border1{
+    width: 1215px;
+    height: 1px;
+    background-color: #D7B7D4;
+    /* margin-bottom: 41px; */
+}
+
+.info-card-second{
+    padding: 41px 100px 41px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 93px;
+}
+
+.info-card-second .info-card__txt{
+    width: 481px;
+}
+
+.info-card-second .title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+
+.info-card-second .subtitle{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+}
+
+
+.info-card-second .btn{
+    padding: 16px 29px;
+    text-decoration: none;
+    border: 1px solid #B99BB6;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+
+.catolog{
+    margin: 85px 0px 71px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.catolog .product-name{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #5F4D5D;
+}
+
+.catolog .price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #B0B0B0;
+}
+
+.services{
+    height: 235px;
+    background: #D6BBD3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+/* .services .services__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.services p{
+        font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer{
+    height: 137px;
+    background-color: #C9ADC6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+}
+
+.footer .list{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
